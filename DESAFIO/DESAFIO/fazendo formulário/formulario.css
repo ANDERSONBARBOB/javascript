@@ -1,0 +1,91 @@
+@charset "UTF-8 ";          
+
+
+    *{ margin:0; padding:0;}
+
+body{ font-family: Arial, Helvetica, sans-serif;  background:rgb(251, 253, 254);}
+
+form,input,select,textarea{margin:0; padding:0; color:rgb(hsla(263, 83%, 45%, 0.573));}
+
+div.box {
+margin:0 auto;
+width:500px;
+background:#151511;
+position:relative;
+top:50px;
+border:1px solid hsl(0, 85%, 36%);
+}
+
+
+
+div.box h1 {
+color:#f2eeee;
+font-size:18px;
+text-align: center;
+text-transform:uppercase;
+padding:5px 0 5px 5px;
+border-bottom:1px solid #051007;
+border-top:1px solid #06110a;
+}
+
+div.box label {
+width:100%;
+display: block;
+background:#572828;
+border-top:1px solid #262626;
+border-bottom:1px solid #161712;
+padding:10px 0 10px 0;
+}
+
+div.box label span {
+display: block;
+color:#bbbbbb;
+font-size:12px;
+float:left;
+width:100px;
+text-align:right;
+padding:5px 20px 0 0;
+}
+
+div.box .input_text {
+padding:10px 10px;
+width:200px;
+background:#e6e8e6;
+border-bottom: 1px double #0a2297;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+}
+
+div.box .message{
+padding:7px 7px;
+width:350px;
+background:white;
+border-bottom: 1px double #f3eded;
+border-top: 1px double #171717;
+border-left:1px double #333333;
+border-right:1px double #333333;
+overflow:hidden;
+height:150px;
+}
+
+div.box .button{
+margin:0 0 10px 0;
+padding:4px 7px;
+background:#cfc7c6;
+border:0px;
+position: relative;
+top:10px;
+left:382px;
+width:100px;
+border-bottom: 1px double #ae9595;
+border-top: 1px double #efa8a8;
+border-left:1px double #a05e6b;
+border-right:1px double #a36974;
+}
+
+
+
+
+
+
